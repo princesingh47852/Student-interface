@@ -24,57 +24,29 @@ The portal offers four main functionalities accessed via a numbered menu:
 
 All student data is stored locally in the student_record dictionary at the top of the file:
 
-Roll Number             - Field            - Description
+- Roll Number            01, 102, etc.
 
-101, 102, etc.
+- Field- name- marks- present_day- absent_day- procter
 
-name
+- Description
 
-Student's name (used for login validation).
+     Student's name (used for login validation).
 
+     Subject-wise marks.
 
+     Total days present per subject.
 
-marks
+     Total days absent per subject.
 
-Subject-wise marks.
+     The assigned procter's name (used for leave request verification).
 
+     To test the application, use one of the following valid login combinations:
 
+Name- student1, student2
 
-present_day
+Roll Number- 101, 102
 
-Total days present per subject.
-
-
-
-absent_day
-
-Total days absent per subject.
-
-
-
-procter
-
-The assigned procter's name (used for leave request verification).
-
-To test the application, use one of the following valid login combinations:
-
-Name
-
-Roll Number
-
-Procter Name
-
-student1
-
-101
-
-ramraj
-
-student2
-
-102
-
-sitaram
+Procter Name -ramraj,sitaram
 
 # How to Run
 
